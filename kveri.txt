@@ -1,0 +1,6 @@
+SELECT * FROM ucenikinfos WHERE ucenikID=(SELECT ucenik_id from vozilo WHERE id=1)
+
+select marka from vozila
+
+select id, kategorija, model from vozila where marka='bmw'
+
